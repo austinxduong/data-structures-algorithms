@@ -5,10 +5,10 @@ function theEffciencyAndTheRatingOfWhat() {
     const effciencyOfThese4ThingsInADataStructure = ['acessing', 'searching', 'inserting', 'deleting'];
 
     if(true) {
-        return console.log(`${effciencyOfThese4ThingsInADataStructure}`)
+        return console.log("how the data structure is .... ", `${effciencyOfThese4ThingsInADataStructure}`)
     }
 }
-
 theEffciencyAndTheRatingOfWhat();
-//acessing,searching,inserting,deleting
+// how the data structure is ....  acessing,searching,inserting,deleting
+
 
