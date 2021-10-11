@@ -1,3 +1,3 @@
 
 
-### austi's thought, and things, of sorts 
+### austis' thought(s), thing(s), & sort(s) 🌨️ 🌙
