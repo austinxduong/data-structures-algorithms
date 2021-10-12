@@ -23,4 +23,5 @@ function butHowDoesBigONotationActuallyMeasureTheseFourThings() {
 butHowDoesBigONotationActuallyMeasureTheseFourThings();
 // Time Complexity equation. This is 1 way BigO measures the efficieny of these 4 things.
 // O() <---- this is what "BigO Time Complexity Equation" looks like.
-// O(22) <-- this means it takes 22 operations, the computer must run (for the function to finish executing). This is pronounced as "O of 22".
+// O(22) <-- this means it takes 22 operations (steps), the computer must run (for the function to finish executing). This is pronounced as "O of 22".
+// 0(1) <--- this would be considered the "best" data structure, rating wise. It only takes 1 operation (step) to execute a function
