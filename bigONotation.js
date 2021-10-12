@@ -24,4 +24,10 @@ butHowDoesBigONotationActuallyMeasureTheseFourThings();
 // Time Complexity equation. This is 1 way BigO measures the efficieny of these 4 things.
 // O() <---- this is what "BigO Time Complexity Equation" looks like.
 // O(22) <-- this means it takes 22 operations (steps), the computer must run (for the function to finish executing). This is pronounced as "O of 22".
-// 0(1) <--- this would be considered the "best" data structure, rating wise. It only takes 1 operation (step) to execute a function
+// 0(1) <--- this would be considered the "best" data structure, rating wise. It only takes 1 operation (step) to execute a function, no matter the size our our data set
+// ie. we can have an array of 1 element, or 222,222 elements, but it only takes 1 operation (step), for the function to execute
+
+// BigO notation also commonly has an "n", representing our the size of our dataset. For example, the number of elements within an array. 
+// ie. const bigOArray= [1, 2, 3]
+// n = 3 <--- the size of our dataset
+// O(n)
