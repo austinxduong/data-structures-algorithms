@@ -22,3 +22,5 @@ function butHowDoesBigONotationActuallyMeasureTheseFourThings() {
 }
 butHowDoesBigONotationActuallyMeasureTheseFourThings();
 // Time Complexity equation. This is 1 way BigO measures the efficieny of these 4 things
+// O() <---- this is BigO Time Complexity Equation looks like
+// O(22) <-- this means it takes 22 operations, the computer must run (for the function to finish executing). This is pronounced as "O of 22".
