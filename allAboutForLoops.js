@@ -55,3 +55,22 @@ for (i = 0; i < iceCream.length; i++) {
     console.log(iceCream[i] + ' ' + i);
 }
 
+/*
+strawberry 0
+half baked 1
+oreo 2
+peanut butter 3
+classic vanilla 4
+*/
+
+// we can decontruct the iceCream array 
+// to do that, we just assign a new variable name "from" the name of our array
+// the caveat.... while there is less code written, the "for of" loop is much slower, than the classic for loop used above
+
+const iceCream0 = ['strawberry', 'half baked', 'oreo', 'peanut butter', 'classic vanilla'];
+
+for (flavors of iceCream0) {
+    console.log(flavors);
+}
+
+
