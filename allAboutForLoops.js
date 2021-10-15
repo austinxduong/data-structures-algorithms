@@ -26,3 +26,17 @@ for (let i = 0; i < 4; i++) {
     lets loop 4 times3 */
 
 // we can see the their indentified indexes
+
+// we can use "break", to stop at specicfic index, like so:
+
+for (let i = 0; i <4 ; i++ ) {
+    console.log("loop 4 times, buttt wait. lets stop at a specific index" + ' ' + i);
+    if (i === 2) break;
+}
+
+/*
+loop 4 times, buttt wait. lets stop at a specific index 0
+loop 4 times, buttt wait. lets stop at a specific index 1
+loop 4 times, buttt wait. lets stop at a specific index 2
+*/
+
