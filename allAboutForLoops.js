@@ -67,10 +67,22 @@ classic vanilla 4
 // to do that, we just assign a new variable name "from" the name of our array
 // the caveat.... while there is less code written, the "for of" loop is much slower, than the classic for loop used above
 
-const iceCream0 = ['strawberry', 'half baked', 'oreo', 'peanut butter', 'classic vanilla'];
+const iceCream0 = ['strawberry', 'half baked', 'oreo', 'peanut butter', 'classic vanilla']; {
 
 for (flavors of iceCream0) {
     console.log(flavors);
 }
+}
 
+// "for in" loop, using an object of key/value pairs
+const plant = {'name': 'stanley', 'type': 'plant', 'age': 2}
 
+for (valueFromKey in plant) {
+    console.log(plant[valueFromKey]);
+}
+// below, we just returned our value of the key, from the plant array
+/*
+stanley
+plant
+2
+*/
