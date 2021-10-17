@@ -86,3 +86,31 @@ stanley
 plant
 2
 */
+
+/*
+let i = 0;
+do {
+    i++;
+    if (i=== 11) continue;
+    console.log(i);
+} while (i < 7);
+*/
+
+// let i = 0
+// let x = 0;
+// while ( i < 5 ) {
+//     i++;
+//     if ( i == 1) {
+//         continue;
+//     }
+//     n += i;
+//     console.log(x)
+// }
+
+// "continue" statement.
+// "continue" statement skips the current specific iteration, doesn't print, and isn't counted in the iteration/loops.
+
+for (let i = 0; i < 22; i++) {
+    if (i === 9) { continue; }
+    console.log("hello im iterating: " + i);
+  }
