@@ -89,8 +89,49 @@ plant
 
 // "continue" statement.
 // "continue" statement skips the current specific iteration, doesn't print, and isn't counted in the iteration/loop
+// the output will show "1 less" in the output, since element 9 is removed
 
 for (let i = 0; i < 22; i++) {
     if (i === 9) { continue; }
     console.log("hello im iterating: " + i);
   }
+
+/*
+hello im iterating: 0
+hello im iterating: 1
+hello im iterating: 2
+hello im iterating: 3
+hello im iterating: 4
+hello im iterating: 5
+hello im iterating: 6
+hello im iterating: 7
+hello im iterating: 8
+hello im iterating: 10
+hello im iterating: 11
+hello im iterating: 12
+hello im iterating: 13
+hello im iterating: 14
+hello im iterating: 15
+hello im iterating: 16
+hello im iterating: 17
+hello im iterating: 18
+hello im iterating: 19
+hello im iterating: 20
+hello im iterating: 21
+*/
+
+// "break" statement usually lives inside a conditional statement
+// if the condition is met, the loops stops at the specific condition (element), and removes it self from the iteration.
+
+for (let i = 0; i < 7; i++) {
+    if( i === 3 ) { break };
+    console.log("break at element 3, and get out of loop", i);
+}
+
+/*
+break at element 3, and get out of loop 0
+break at element 3, and get out of loop 1
+break at element 3, and get out of loop 2
+*/
+
+
