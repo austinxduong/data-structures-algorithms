@@ -6,3 +6,4 @@ console.log("Whats a practical real life analogy?-->",realLifeExampleDataStructu
 
 const howIsTheDataStructureActuallyStored = 'inside memory slots. in the form of bits. 8 bits equals whats called a byte.' 
 console.log("howAreDataStructuresActuallyStored--> ", howIsTheDataStructureActuallyStored);
+
