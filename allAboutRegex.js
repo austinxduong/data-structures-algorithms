@@ -1,6 +1,6 @@
 // because i was asked on this during an interview once, and didnt know what I was doing.
 
-// const REGEX = /austiMatch/
+const REGEX = /austiMatch/
 
 // const REGEX = /austiMatch/i 
 
