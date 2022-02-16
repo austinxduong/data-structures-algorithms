@@ -13,7 +13,7 @@ function recursionPattern(num) {
 /*--------------------------------------------------------------------- */
   
 
-
+//iterative solution, traversing through integers
 function iterativeSolutionDemo() {
 
     var collector = 0
@@ -28,7 +28,27 @@ function iterativeSolutionDemo() {
     console.log("global scope: ", collector)
 }
 
-console.log(iterativeSolutionDemo(2))
+console.log(iterativeSolutionDemo())
+
+//iterative solution, traversing through objects
+function iterativeSolutionDemo2() {
+
+    var objectsOfToys = { id: 1, name: 'ollie', talent: 'flying', color:'green'}
+
+    var elementStringCollector = [];
+
+    for (const index in objectsOfToys) {
+
+       elementStringCollector.push(index)
+    
+       console.log("local scope --> ", elementStringCollector)
+    
+    }
+    console.log("global scope: ", elementStringCollector)
+}
+
+
+console.log(iterativeSolutionDemo2())
 
 
 // reminder: this function generates a random number betweeen 50 and 88, inclusive of both min & max inputs.
