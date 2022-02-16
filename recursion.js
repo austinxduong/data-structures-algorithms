@@ -10,22 +10,28 @@ function recursionPattern(num) {
     }}
 
     console.log(recursionPattern(-11))
-
-
+/*--------------------------------------------------------------------- */
   
+
+
+function iterativeSolutionDemo() {
+
+    var collector = 0
+
+    for (i = 0; i < 9; i+= 3) {
+
+       collector += i 
     
-  
-        var collector = 0
-        
-        
+       console.log("local scope --> ", collector)
+    
+    }
+    console.log("global scope: ", collector)
+}
 
-        for (i = 0; i < 9; i+= 3) {
-            
-            collector += i
-        }
+console.log(iterativeSolutionDemo(2))
 
-console.log(collector);
 
+// reminder: this function generates a random number betweeen 50 and 88, inclusive of both min & max inputs.
 function getRandom(min, max) {
     return Math.random() * (max - min) + min
 }
