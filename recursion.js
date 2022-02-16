@@ -22,10 +22,10 @@ function iterativeSolutionDemo() {
 
        collector += i 
     
-       console.log("local scope", collector)
+       console.log("local scope --> ", collector)
     
     }
-    console.log("global scope", collector)
+    console.log("global scope: ", collector)
 }
 
 console.log(iterativeSolutionDemo(2))
