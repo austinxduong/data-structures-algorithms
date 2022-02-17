@@ -39,7 +39,7 @@ function iterativeSolutionDemo2() {
 
     for (const index in objectsOfToys) {
 
-       elementStringCollector.push(index)
+       elementStringCollector.push(objectsOfToys[index])
     
        console.log("local scope --> ", elementStringCollector)
     
@@ -57,3 +57,4 @@ function getRandom(min, max) {
 }
 
 console.log(getRandom(50, 88))
+module.exports = getRandom;
