@@ -1,7 +1,7 @@
 function recursionPattern(num) {
     // base case
     if(num <= 0) {
-    return "We made it back up to 0. Wheeww!!" 
+    return 0 
     } else {
     return "Oops, type in a smaller number!"
     // recursion execution
@@ -11,7 +11,7 @@ function recursionPattern(num) {
 
     console.log(recursionPattern(-11))
 /*--------------------------------------------------------------------- */
-  
+  module.exports = recursionPattern;
 
 //iterative solution, traversing through integers
 function iterativeSolutionDemo() {
@@ -28,7 +28,7 @@ function iterativeSolutionDemo() {
     console.log("global scope: ", collector)
 }
 
-console.log(iterativeSolutionDemo())
+console.log(iterativeSolutionDemo(10000))
 
 //iterative solution, traversing through objects
 function iterativeSolutionDemo2() {
@@ -51,10 +51,3 @@ function iterativeSolutionDemo2() {
 console.log(iterativeSolutionDemo2())
 
 
-// reminder: this function generates a random number betweeen 50 and 88, inclusive of both min & max inputs.
-function getRandom(min, max) {
-    return Math.random() * (max - min) + min
-}
-
-console.log(getRandom(50, 88))
-module.exports = getRandom;
