@@ -1,6 +1,7 @@
 const getRandom  = require ('../randomNumber');
 const regexDemo = require ('../allAboutRegex')
 const recursionPattern = require ('../recursion')
+const iterativeSolutionDemo = require ('../forLoopClassic')
 
 
 
@@ -22,6 +23,6 @@ test('recursively decrements when an interger is passed in as argument', () => {
     expect(recursionPattern(100)).toBe("Oops, type in a smaller number!")
 });
 
-// test('function takes an interger, and returns all odd numbers until condition. Then returns sum of all intergers. ',)
-//     expect(iterativeSolutionDemo().toBe())
-
+test('function takes an interger, and returns all odd numbers until condition. Then returns sum of all intergers. ', ()  => {
+    expect(iterativeSolutionDemo()).toBe()
+})
