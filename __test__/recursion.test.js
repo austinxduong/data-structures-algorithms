@@ -4,8 +4,7 @@ const recursionPattern = require ('../recursion')
 const iterativeSolutionDemo = require ('../forLoopClassic')
 
 
-
-test('finds a integer between 50 and 88, including both inputs', () => {
+test('finds an integer between 50 and 88, including both inputs', () => {
     
     expect(getRandom(50, 88)).toBeGreaterThanOrEqual(50)
     expect(getRandom(50, 88)).toBeLessThanOrEqual(88)
@@ -23,6 +22,7 @@ test('recursively decrements when an interger is passed in as argument', () => {
     expect(recursionPattern(100)).toBe("Oops, type in a smaller number!")
 });
 
-test('function takes an interger, and returns all odd numbers until condition. Then returns sum of all intergers. ', ()  => {
-    expect(iterativeSolutionDemo()).toBe()
+test('increments by odd intergers, until condition is met, ', ()  => {
+    const result = iterativeSolutionDemo();
+    expect(result).toBe(24)
 })
